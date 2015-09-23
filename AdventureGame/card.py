@@ -9,6 +9,12 @@
 		return self.__actionsList__
 	def getNumberTimesDealt(self):
 		return __numberTimesDealt__
+	def beDealt(self, player):
+		self.__numberTimesDealt__ += 1
+		self.__player__ = player
+		return self
 
 
+	#Need to create a generic location card, with a return to Home and any basic action/inventory buttons.  Shows current location description & basic actions, other locations
 
+	#Generic card: You are lost in the mists.  Generic actions + gohome
