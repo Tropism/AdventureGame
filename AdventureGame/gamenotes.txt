@@ -1,0 +1,37 @@
+Adventurer class (subclass of person class?)
+Item class
+Location class
+Input class?
+Display class
+Encounter class?
+
+locations define the way screens look...
+If there's too much text on a card, the screen function should automatically hold it in a scrolling state
+If there're too many options to display, screen should break them into blocks and track which block is current.
+Card is loaded to screen object, which then displays & interacts.
+
+
+
+
+
+import os
+import textwrap
+
+print("A sudden light flares in the darkness, illuminating a clearing surrounded by pine trees.\n")
+input()
+os.system('cls')
+print("A tear appears in space, flaring with blue and green light.")
+input()
+os.system('cls')
+print("You fall screaming out of the rift, and slam into the ground with a dull thud.")
+input()
+os.system('cls')
+
+print("Welcome to Generic Adventure Game v0.01A.")
+print("Copyright 2015 E. LaVoe")
+input()
+print("\n")
+print("\n")
+print("You poor bastard.")
+input()
+os.system('cls')
